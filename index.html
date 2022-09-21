@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Shailesh Giri</title>
+
+		<!-- favicon -->
+		<link rel="shortcut icon" href="assets/favicon.ico">
+
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
+
+		<!-- font awesome -->
+		<script src="https://kit.fontawesome.com/de44da2e1d.js" crossorigin="anonymous"></script>
+
+		<!-- css stylesheets -->
+		<link rel="stylesheet" href="css/master.css">
+
+		<!-- scripts -->
+		<script src="js/mobile-navigation.js" defer></script>
+	</head>
+
+	<body>
+		<div class="container-main">
+
+			<!-- navigation -->
+			<header class="flex">
+
+				<button data-button-visible="false" class="mobile-navigation-toggle">
+					<span class="hamburger-icon"></span>
+				</button>
+
+				<nav>
+					<ul data-visible="false" class="primary-navigation glow-indicators flex">
+						<a href="index.html" class="active"><li><span>00</span>Home</li></a>
+						<a href="about.html"><li><span>01</span>About</li></a>
+						<a href="projects.html"><li><span>02</span>Projects</li></a>
+					</ul>
+				</nav>
+
+				<div class="button">
+					<a href="assets/resume-button/resume.pdf" target="_blank" download="resume" class="resume-button">Résumé</a>
+				</div>
+
+			</header>
+
+			<!-- main -->
+			<main class="flex">
+				<!-- heading -->
+				<div class="container-heading">
+					<h3 class="heading-minor ff-serif fs-500 letter-spacing">Hi, my name is</h3>
+					<h1 class="heading-main ff-serif fs-900 text-white letter-spacing">Shailesh Giri</h1>
+					<h2 class="heading-sub ff-serif fs-700 text-white letter-spacing">I design and tinker.</h2>
+					<h3 class="heading-minor ff-serif fs-500 letter-spacing">Currently learning web development.</h3>
+				</div>
+
+				<!-- socials -->
+				<div class="container-socials flex">
+					<div class="socials flex">
+						<p class="uppercase">Socials</p>
+						<a href="https://www.linkedin.com/in/shailesh-giri-973442191/" target="_blank" class="tooltip flex" data-tooltip="LinkedIn"><span class="icon fs-500 text-white fa-brands fa-linkedin"></span></a>
+						<a href="https://github.com/shailesh747" target="_blank" class="tooltip flex" data-tooltip="GitHub"><span class="icon fs-500 text-white fa-brands fa-github"></span></a>
+					</div>
+				</div>
+			</main>
+
+			<!-- particles -->
+			<div id="particles-js" class="particles"></div>
+
+		</div>
+
+		<!-- scripts -->
+		<script src="js/particles.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
