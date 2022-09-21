@@ -337,7 +337,8 @@ header {
 		z-index: -1;
 	}
 	
-	/* blurring the main container itself on navigation open to workaround chrome limitation */
+	/* blurring the main container itself on navigation open to workaround chrome limitation
+		and yet the particles still clip thorugh on chrome */
 	.mobile-navigation-open main {
 		filter: blur(1em);
 	}
